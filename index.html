@@ -20,7 +20,7 @@
             <h1 class="text-xl lg:text-3xl font-bold">Mauricio Galvez</h1>
         </header>
 
-        <div class="flex justify-center items-center">
+        <div class="relative flex justify-center items-center">
             <main class="z-10 bg-white flex justify-center items-center w-72 h-72 lg:w-80 lg:h-80 p-4 rounded border-2 border-black">
                 <ul>
                     <li class="mb-4">
@@ -48,7 +48,9 @@
                 </ul>
             </main>
 
-            <div class="z-0 w-72 h-72 lg:w-80 lg:h-80 p-4 fixed rounded border-2 border-black transform translate-x-2 translate-y-2"></div>
+            <div class="absolute inset-0 z-0 items-center m-0">
+                <div class="z-0 w-72 h-72 lg:w-80 lg:h-80 p-4 rounded border-2 border-black transform translate-x-2 translate-y-2"></div>
+            </div>
         </div>
     </div>
 </body>
